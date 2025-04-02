@@ -1,6 +1,6 @@
 import { Hono } from 'hono'
-import { userRoutes } from './users.js'
-import { salaryRoutes } from './salaries.js'
+import { userRoutes } from './users.routes.js'
+import { salaryRoutes } from './salaries.routes.js'
 
 export const api = new Hono()
 
