@@ -1,6 +1,6 @@
 import { Hono } from 'hono'
-import { getUserById, createUser, updateUser, deleteUser } from '../services/users'
-import { validateUserCreate } from '../validation/users'
+import { getUserById, createUser, updateUser, deleteUser } from '../services/users.js'
+import { validateUserCreate } from '../validation/users.js'
 
 export const userRoutes = new Hono()
 

@@ -1,6 +1,6 @@
 import { Hono } from 'hono'
-import { createSalary, updateSalary, deleteSalary } from '../services/salaries'
-import { validateSalaryCreate } from '../validation/salaries'
+import { createSalary, updateSalary, deleteSalary } from '../services/salaries.js'
+import { validateSalaryCreate } from '../validation/salaries.js'
 
 export const salaryRoutes = new Hono()
 
