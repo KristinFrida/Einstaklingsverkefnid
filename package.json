@@ -1,0 +1,37 @@
+{
+  "name": "vef2-2025-v3-unnid-i-time",
+  "type": "module",
+  "engines": {
+    "node": "22"
+  },
+ "scripts": {
+  "dev": "tsx watch src/index.ts",
+  "build": "tsc --noEmit false",
+  "start": "node dist/index.js",
+  "lint": "eslint ./src",
+  "test": "jest",
+  "coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.8",
+    "@prisma/client": "^6.4.1",
+    "hono": "^4.7.2",
+    "ts-node": "^10.9.2",
+    "xss": "^1.0.15",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.11.17",
+    "@types/supertest": "^6.0.2",
+    "eslint": "^9.21.0",
+    "jest": "^29.7.0",
+    "prisma": "^6.4.1",
+    "supertest": "^7.0.0",
+    "ts-jest": "^29.2.6",
+    "tsx": "^4.7.1",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.26.0",
+    "vitest": "^3.0.8"
+  }
+}
