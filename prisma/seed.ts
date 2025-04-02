@@ -117,7 +117,7 @@ async function main() {
     })
   }
 
-  console.log(`✅ Seeded ${users.length} users with salary data.`)
+  console.log(`Seeded ${users.length} users with salary.`)
 }
 
 main()
