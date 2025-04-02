@@ -44,6 +44,7 @@ Hér er [Figma](https://www.figma.com/proto/t8NEGNBTXelAvfJfPuYbMh/Vefforritun-e
 
 #### 1. apríl 
 Ég teiknaði lukkudýrið mitt og gerði bakendann. 6klst.
+[Bakendinn](https://einstaklingsverkefnid.onrender.com/)
 
 #### 2. apríl 
 Ég gerði github repo fyrir framendann og glærur. [FramendiEinstaklings Repository](https://github.com/KristinFrida/FramendiEinstaklings) og [glærurnar](https://www.canva.com/design/DAGjeowbbZE/urT6D_zM-bMtjPM-Yz52Lg/edit?utm_content=DAGjeowbbZE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton). Ég einnig fínpússaði bakendann fyrir kynninguna og setti hann í hýsingu. 4klst
