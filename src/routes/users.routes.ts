@@ -16,6 +16,18 @@ const UserCreateSchema = z.object({
   field: z.string(),
 })
 
+// GET /users
+userRoutes.get('/', async (c) => {
+  try {
+    const users = await prisma.user.findMany({
+      include: { salaries: true },
+    })
+    return c.json(users)
+  } catch (err) {
+    return c.json({ message: 'Failed to fetch users', details: err }, 500)
+  }
+})
+
 // GET /users/:id
 userRoutes.get('/:id', async (c) => {
   const { id } = c.req.param()

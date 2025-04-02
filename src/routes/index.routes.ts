@@ -21,6 +21,11 @@ const routes = [
   },
   {
     href: '/salaries',
+    methods: ['GET', 'POST'],
+    description: 'Sækja allar launatöflur eða bæta við nýrri fyrir notanda',
+  },
+  {
+    href: '/salaries',
     methods: ['POST'],
     description: 'Bæta við launatöflu fyrir notanda',
   },

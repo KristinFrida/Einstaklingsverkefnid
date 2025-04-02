@@ -12,6 +12,18 @@ const SalaryCreateSchema = z.object({
   userId: z.string(),
 })
 
+// GET /salaries – fetch all salaries
+salaryRoutes.get('/', async (c) => {
+  try {
+    const salaries = await prisma.salary.findMany({
+      include: { user: true },
+    })
+    return c.json(salaries)
+  } catch (err) {
+    return c.json({ message: 'Failed to fetch salaries', details: err }, 500)
+  }
+})
+
 salaryRoutes.post(
   '/',
   zValidator('json', SalaryCreateSchema),
@@ -26,6 +38,7 @@ salaryRoutes.post(
   },
 )
 
+// PATCH /salaries/:id – update salary
 salaryRoutes.patch('/:id', async (c) => {
   const { id } = c.req.param()
   const data = await c.req.json()
@@ -41,6 +54,7 @@ salaryRoutes.patch('/:id', async (c) => {
   }
 })
 
+// DELETE /salaries/:id – delete salary
 salaryRoutes.delete('/:id', async (c) => {
   const { id } = c.req.param()
   try {
