@@ -4,37 +4,37 @@ import { userRoutes } from '../routes/users.routes.js'
 
 const createServer = () => {
   const app = new Hono()
-  app.route('/users', userRoutes) 
-  return async (req: any, res: any) => {
-    try {
-      const response = await app.fetch(req, {
+  app.route('/users', userRoutes)
+  
+  return (req: any, res: any) => {
+    (async () => {
+      const response: Response = await app.fetch(req, {
         headers: req.headers,
         method: req.method,
         body: req,
         duplex: 'half',
-      })
+      });
+      res.statusCode = response.status;
+      response.headers.forEach((value, key) => res.setHeader(key, value));
+      
+      const reader = response.body?.getReader();
+      if (!reader) return res.end();
 
-      res.statusCode = response.status
-      response.headers.forEach((value, key) => res.setHeader(key, value))
-
-      const reader = response.body?.getReader()
-      if (!reader) return res.end()
-
-      const decoder = new TextDecoder()
+      const decoder = new TextDecoder();
       while (true) {
-        const { done, value } = await reader.read()
-        if (done) break
-        res.write(decoder.decode(value))
+        const { done, value } = await reader.read();
+        if (done) break;
+        res.write(decoder.decode(value));
       }
-      res.end()
-    } catch (err: any) {
-      res.statusCode = 500
-      res.end(err.message)
-    }
+      res.end();
+    })().catch((err: any) => {
+      res.statusCode = 500;
+      res.end(err.message);
+    });
   }
 }
 
-const server = createServer()
+const server = createServer();
 
 describe('User routes', () => {
   it('GET /users should return list of users (mocked)', async () => {
