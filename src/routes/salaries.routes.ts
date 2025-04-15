@@ -12,7 +12,7 @@ const SalaryCreateSchema = z.object({
   userId: z.string(),
 })
 
-// GET /salaries – fetch all salaries
+// GET /salaries 
 salaryRoutes.get('/', async (c) => {
   try {
     const salaries = await prisma.salary.findMany({
@@ -38,7 +38,7 @@ salaryRoutes.post(
   },
 )
 
-// PATCH /salaries/:id – update salary
+// PATCH /salaries/:id 
 salaryRoutes.patch('/:id', async (c) => {
   const { id } = c.req.param()
   const data = await c.req.json()
@@ -54,7 +54,7 @@ salaryRoutes.patch('/:id', async (c) => {
   }
 })
 
-// DELETE /salaries/:id – delete salary
+// DELETE /salaries/:id 
 salaryRoutes.delete('/:id', async (c) => {
   const { id } = c.req.param()
   try {

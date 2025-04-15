@@ -44,22 +44,22 @@ Hér er [Figma](https://www.figma.com/proto/t8NEGNBTXelAvfJfPuYbMh/Vefforritun-e
 
 #### 1. apríl 
 Ég teiknaði lukkudýrið mitt og gerði bakendann. 6klst.
-[Bakendinn](https://einstaklingsverkefnid.onrender.com/)
+[Hér er slóðin að bakendanum](https://einstaklingsverkefnid.onrender.com/)
 
 #### 2. apríl 
 Ég gerði github repo fyrir framendann og glærur. [FramendiEinstaklings Repository](https://github.com/KristinFrida/FramendiEinstaklings) og [glærurnar](https://www.canva.com/design/DAGjeowbbZE/urT6D_zM-bMtjPM-Yz52Lg/edit?utm_content=DAGjeowbbZE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton). Ég einnig fínpússaði bakendann fyrir kynninguna og setti hann í hýsingu. 4klst
 
 
 ## Kynning á verkefni
-Ég hef ákveðið að kynna verkefnið en hins vegar ef að ég næ að standa mig vel yfir önnina þá mun ég sleppa henni og tilkynna það til Óla með nægilegum fyrirvara. Hins vegar vitum við að allt getur gerst og þar að leiðandi ætla ég að gera ráð fyrir kynningunni.
+Ég ætlaði mér upphaflega ekki að kynna verkefnið en ég er glöð að hafa ákveðið að gera það að lokum. Mér fannst mjög skemmtilegt að sjá hversu metnaðarfullt fólkið í áfanganum var og gaman að fá innsýn í hvað það hefur áhuga á eða telur vanta. Eins og Óli sagði, lærir maður mikið á því að kynna verkefnið sitt og mér fannst það gagnlegt að átta mig á því að verkefnið mitt var of umfangsmikið miðað við þann tíma sem ég hafði til þess að vinna í því.
 
-Nýlegast, ég náði ekki að gefa mér tíma í þetta verkefni en þetta verður hobbý verkefnið mitt í sumar. Ég hef ákveðið að kynna til þess að gefa kost á því að hækka einkunina mína, þar sem ég þarf einunigis 0,6 til þess að fá 10 í áfanganum. Ég mun einnig skila þessu verkefni og því sem ég næ að útfæra fyrir 9.apríl. 
+Í framtíðinni mun ég skipta verkefninu í tvennt, þar sem ég mun annars vegar einblína á nýlega CSS virkni og Framer. Fyrst og fremst vil ég klára að útfæra launavefinn minn í sumar til þess að ná til sem flestra í náminu. Mér fannst sérstaklega gagnlegt að fá ábendinguna um að ég gæti þróað þetta verkefni enn frekar, sótt um styrk hjá Rannís eða jafnvel tekið þátt í Gullegginu.
 
 ## Hvað gekk vel
-Það gekk vel að útbúa bakendann, sérstaklega þar sem ég gat byggt ofan á reynslu úr hópverkefni 1 og verkefni 3. Ég náði að koma upp REST API með viðeigandi skráningu og gagnagrunni. Þó þarf ég að fara aftur yfir öryggismál, sérstaklega varðandi meðhöndlun notendaupplýsinga.
+Það gekk vel að útbúa bakendann, sérstaklega þar sem ég gat byggt ofan á reynslu úr hópverkefni 1 og verkefni 3. Ég náði að koma upp REST API með viðeigandi skráningu og gagnagrunni. Þó þarf ég að fara aftur yfir öryggismál, sérstaklega varðandi meðhöndlun notendaupplýsinga. Þótt ég náði ekki að klára það sem ég ætlaði mér þá er ég glöð að hafa gert öll verkefnin og sé að ég er komin með ágætan grunn fyrir framhaldið. 
 
 ## Hvað gekk illa
-Það hefur ekki gengið vel að gera responsive hönnun í Figma. Ég gerði mér ekki grein fyrir því hversu mikil grunnþekking þarf til að nýta forritið vel og vegna tímaskorts gaf ég mér aldrei nægan tíma til að læra á það. Þetta hafði bein áhrif á verkefnið og ég upplifði Figma sem minna notendavænt en ég hafði haldið. Með betri undirbúningi hefði verið betra að teikna hönnunina eða notað einfaldara tól. Ég er ekki sátt með útlitið eins og er, finnst það fremur einfalt. 
+Það hefur ekki gengið vel að gera responsive hönnun í Figma. Ég gerði mér ekki grein fyrir því hversu mikil grunnþekking þarf til að nýta forritið vel og vegna tímaskorts gaf ég mér aldrei nægan tíma til að læra á það. Þetta hafði bein áhrif á verkefnið og ég upplifði Figma sem minna notendavænt en ég hafði haldið. Með betri undirbúningi hefði verið betra að teikna hönnunina eða notað einfaldara tól. Ég er ekki sátt með útlitið eins og er, finnst það fremur einfalt. Ég hefði getað haldið áfram að þróa framendann en hafði ekki mikla ástríðu til þess þegar ég vildi ekki gera figma skjalið að veruleika fyrir utan að ég vil að vefurinn er responsive. Ég sé samt að ég vil læra meira á figma en þarf að gefa mér tíma til þess.
 
 ## Hvað var áhugavert
-Mér finnst áhugavert hversu mikið nýtt er að læra í vefforritun og hversu ört sviðið breytist. Ég er byrjuð að fylgjast með YouTube rásum sem fjalla um nýjustu þróun í vefþróun og fæ einnig efni frá UI-hönnuðum á TikTok. Það kom mér á óvart að sumir eru að nota Blender til að búa til vefsíður og það opnaði alveg nýja vídd í sköpunarferlinu fyrir mér.
+Mér finnst áhugavert hversu mikið nýtt er að læra í vefforritun og hversu ört sviðið breytist. Ég er byrjuð að fylgjast með YouTube rásum sem fjalla um nýjustu þróun í vefþróun og fæ einnig efni frá UI-hönnuðum á TikTok. Það kom mér á óvart að sumir eru að nota Blender til að búa til vefsíður og það opnaði alveg nýja vídd í sköpunarferlinu fyrir mér. Ég er jafnvel byrjuð að huga að mér að skoða nám í grafískri hönnun til þess aðstoða mig í gerð vefsíðna en að lokum tel ég að maður lærir mest á því að framkvæma og prófa sig áfram. 
